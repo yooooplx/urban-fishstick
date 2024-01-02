@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My little airport</title>
+    <meta name="description"
+        content="This webpage serves as our assignment1 for AQC7011, a small tribute to express my love for a band named mylittleairport. Through this introduction, I aim to share with you the joy, warmth, and endless inspiration that this band brings to us. Dive into the music of mylittleairport with us, and experience that unique sense of fun! ">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="shortcut">
+        <section class="shortcut">
+            <div class="w">
+                <div class="login">
+                    <ul>
+                        <li>
+                            Welcome to this unique musical space!
+                        </li>
+                    </ul>
+                </div>
+                <div class="shortmain">
+                    <ul>
+                        <li><a href="#introduction">Introduction</a></li>
+                        <li></li>
+                        <li><a href="#events">Events</a></li>
+                        <li></li>
+                        <li><a href="#popular">Popular</a></li>
+                        <li></li>
+                        <li><a href="#albums">Albums</a></li>
+                        <li></li>
+                        <li><a href="#photos">Photos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <header>
+        <div class="background">
+            <div class="background-image">
+            </div>
+            <div class="background-image-overlaymobile">
+            </div>
+            <div class="background-image-overlay">
+            </div>
+        </div>
+        <div class="title w">
+            <h1>My liitle Airport</h1>
+            <ul>
+                <li>
+                    <strong>Origin:</strong> Hong Kong
+                </li>
+                <li>
+                    <strong>Genres:</strong>
+                    <span class="g1"><a href="https://en.wikipedia.org/wiki/Twee_pop">Twee pop</a></span>
+                    <span class="g2"><a href="https://en.wikipedia.org/wiki/Hong_Kong_English_pop">Hong Kong English
+                            pop</a></span>
+                    <span class="g3"><a href="https://en.wikipedia.org/wiki/Indie_pop">indie-pop</a></span>
+                </li>
+                <li>
+                    <strong>Years active:</strong>
+                    2004–present
+                </li>
+                <li>
+                    <strong>Members:</strong>
+                    Ah P, Nicole
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="w clearfix">
+        <div class="intro" id="introduction">
+            <h2>Introduction</h2>
+            <p>My Little Airport is a Hong Kong-based indie pop band.Their English lyrics are marked by spelling,
+                grammar,
+                and
+                rhythm inflected by Hong Kong English. The band's lyrics and music are written by Ah P (Lam Pang) and
+                sung
+                by Nicole
+                (Nicole Au Kin-ying). The duo occasionally invite friends (Ah Suet, who speaks French, for instance) and
+                relatives
+                (Nicole's younger sister) to participate in their albums and shows. They established Harbour Records
+                with
+                four other
+                indie bands from Hong Kong, and on it released their 2004 debut album The OK Thing to Do on Sunday
+                Afternoon
+                Is to
+                Toddle in the Zoo. In 2006 they joined Elefant Records, hoping to gain distribution beyond Hong Kong's
+                small
+                indie
+                fanbase.</p>
+            <p>Its compositional style is free, and apart from general songs there are also forms similar to poetry
+                recitations set to
+                music. Influenced by Hong Kong singer Wan Kwong's style of depicting his attitude towards life and
+                expressing Hong Kong
+                people's thoughts in a Hong Kong way, his early works were mostly based on people and events around the
+                two vocalists,
+                but gradually added political and social themes. In particular, there are a number of songs criticising
+                the Chief
+                Executive of Hong Kong, government officials, etc., such as "Donald Tsang, Please die" (meaning please
+                ask Donald Tsang
+                to go to hell), "For the People in the Admiralty MTR Station Carriages", and "Hoi Sum Park". Subjects
+                such as depictions
+                of sexual behaviour, rooming, and prostitutes are also included; covers often use vegetarian portraits,
+                but usually not
+                the lead singer himself. During the 2019 Hong Kong anti-amendment campaign, the band also released a
+                number of songs
+                directly describing the campaign.</p>
+            <p>&nbsp;</p>
+            <p>explore more information about Mylittleairport, click <a
+                    href="https://zh.wikipedia.org/zh-cn/My_Little_Airport">here</a></p>
+        </div>
+
+        <div class="latestevents" id="events">
+            <h2>Latest Events</h2>
+            <ul>
+                <li class="latest1">
+                    <a href="https://www.youtube.com/watch?v=b13zt7RGr10">
+                        <img src="images/le-1.jpeg" alt="">
+                        <div class="latest1_text">
+                            <span class="latedt_text1">
+                                Release of new single 'Camel'
+                            </span><br>
+                            <span>
+                                26/10/2023
+                            </span>
+                        </div>
+                    </a>
+                </li>
+                <li class="latest1">
+                    <a href="https://www.instagram.com/p/CuyjUUZP7BS/">
+                        <img src="images/le-2.jpg" alt="">
+                        <div class="latest1_text">
+                            <span class="latedt_text1">
+                                my little airport live 2023 你告訴我一個昆德拉的故事(sorry, the same old story)
+                            </span><br>
+                            <span>
+                                17-10/10,20-23/10 8:15pm
+                            </span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="w clearfix">
+        <div class="popular" id="popular">
+            <h2>Popular</h2>
+            <table>
+                <tr>
+                    <td class="number">
+                        1
+                    </td>
+                    <td class="button">
+                        <a href="https://www.youtube.com/watch?v=sc3zHnOMuOg">
+                            <img src="images/button.jpg" alt="">
+                        </a>
+                    </td>
+                    <td class="photo">
+                        <img src="images/po-1.webp" alt="">
+                    </td>
+                    <td class="name">
+                        Dee, It May All End Tomorrow
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        2
+                    </td>
+
+                    <td class="button">
+                        <a href="https://youtu.be/J2DxGXp8KYY">
+                            <img src="images/button.jpg" alt="">
+                        </a>
+                    </td>
+                    <td class="photo">
+                        <img src="images/po-2.webp" alt="">
+                    </td>
+                    <td class="name">
+                        詩歌舞街
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        3
+                    </td>
+                    <td class="button">
+                        <a href="https://youtu.be/b13zt7RGr10">
+                            <img src="images/button.jpg" alt="">
+                        </a>
+                    </td>
+                    </td>
+                    <td class="photo">
+                        <img src="images/po-3.webp" alt="">
+                    </td>
+                    <td class="name">
+                        駱駝
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        4
+                    </td>
+                    <td class="button">
+                        <a href=" https://www.youtube.com/watch?v=5xi49OreS3k">
+                            <img src="images/button.jpg" alt="">
+                        </a>
+                    </td>
+                    <td class="photo">
+                        <img src="images/po-2.webp" alt="">
+                    </td>
+                    <td class="name">
+                        那陣時不知道
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        5
+                    </td>
+                    <td class="button">
+                        <a href="https://www.youtube.com/watch?v=1YaoQrLoyxQ">
+                            <img src="images/button.jpg" alt="">
+                        </a>
+                    </td>
+                    <td class="photo">
+                        <img src="images/po-5.webp" alt="">
+                    </td>
+                    <td class="name">
+                        西湖沒有中秋
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        6
+                    </td>
+                    <td class="button">
+                        <a href="https://www.youtube.com/watch?v=LI6jrBb-Nes">
+                            <img src="images/button.jpg" alt="">
+                        </a>
+                    </td>
+                    <td class="photo">
+                        <img src="images/po-5.webp" alt="">
+                    </td>
+                    <td class="name">
+                        Hey Hey Baby
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        7
+                    </td>
+                    <td class="button">
+                        <a href="https://www.youtube.com/watch?v=PRsdg6Yn0U0">
+                            <img src="images/button.jpg" alt="">
+                        </a>
+                    </td>
+                    <td class="photo">
+                        <img src="images/po-7.webp" alt="">
+                    </td>
+                    <td class="name">
+                        憂傷的嫖客
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        8
+                    </td>
+                    <td class="button">
+                        <a href="https://www.youtube.com/watch?v=pucYiH33LtM">
+                            <img src="images/button.jpg" alt="">
+                        </a>
+                    </td>
+
+                    <td class="photo">
+                        <img src="images/po-2.webp" alt="">
+                    </td>
+                    <td class="name">
+                        QUEEN
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="album" id="albums">
+            <h2>Albums</h2>
+            <ul>
+                <li>
+                    <img src="images/al-1.webp" alt="">
+                    <p>在動物園散步才是正經事<br><i>Zoo Is Sad, People Are Cruel</i></p>
+                    <p>1/8/2004</p>
+                </li>
+                <li>
+                    <img src="images/al-2.webp" alt="">
+                    <p>只因當時太緊張<br><i>Becoz I Was Too Nervous At That Time</i></p>
+                    <p>1/9/2005</p>
+                </li>
+                <li>
+                    <img src="images/al-3.webp" alt="">
+                    <p>我們在炎熱與抑鬱的夏天,無法停止抽煙<br><i>We Can't Stop Smoking in the Vicious and Blue Summer</i></p>
+                    <p>1/10/2007</p>
+                </li>
+                <li>
+                    <img src="images/al-4.webp" alt="">
+                    <p>介乎法国与旺角的诗意<br><i>poetics–something between montparnasse and mongkok</i></p>
+                    <p>23/11/2009</p>
+                </li>
+                <li>
+                    <img src="images/al-5.webp" alt="">
+                    <p>香港是個大商場<br><i>Hong Kong Is One Big Shopping Mall</i></p>
+                    <p>26/8/2011</p>
+                </li>
+                <li>
+                    <img src="images/al-6.webp" alt="">
+                    <p>寂寞的星期五<br>
+                        <i>
+                            Lonely Friday
+                        </i>
+                    </p>
+                    <p>20/10/2012</p>
+                </li>
+                <li>
+                    <img src="images/al-7.webp" alt="">
+                    <p>適婚的年齡<br>
+                        <i>
+                            The Right Age For Marriage
+                        </i>
+                    </p>
+                    <p>4/10/2014</p>
+                </li>
+                <li>
+                    <img src="images/al-8.webp" alt="">
+                    <p>火炭麗琪<br>
+                        <i>
+                            Fo Tan Lai Ki
+                        </i>
+                    </p>
+                    <p>5/9/2016</p>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="w">
+        <div class="indexphoto" id="photos">
+            <h2>Photos</h2>
+            <ul>
+                <li>
+                    <img src="images/ph-1.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/ph-2.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/ph3.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/ph-4.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="images/ph-5.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="images/ph-6.webp" alt="">
+                </li>
+                <li>
+                    <img src="images/ph-6.jpeg" alt="">
+                </li>
+
+                <li>
+                    <img src="images/ph-8.jpeg" alt="">
+                </li>
+            </ul>
+
+
+        </div>
+
+    </div>
+    <hr>
+    <footer>
+        <div class="w info">
+            <p>Created by Peilin Yue (s2163870)</p>
+            <p>&nbsp;</p>
+            <p>Sources from <a href="https://zh.wikipedia.org/zh-cn/My_Little_Airport">Wiki</a>,
+                <a href="https://www.youtube.com/@mylittleairport">YouTube</a>,
+                <a
+                    href="https://www.google.com/search?q=my+little+airport&sca_esv=583572643&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiR9urwjM2CAxVgxjgGHe2tBxsQ_AUoAXoECAMQAw&biw=1440&bih=811&dpr=1.5#imgrc=-9pEa0q3fz6LOM">Google</a>
+                and
+                <a href="https://www.last.fm/music/My+Little+Airport/+images/7bda4c2b7ac34dfeb78bda7ef8084212">
+                    last.fm
+                </a>
+
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
