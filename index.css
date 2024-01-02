@@ -1,0 +1,339 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+li {
+    list-style: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+
+a {
+    color: black;
+    text-decoration: none
+}
+
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+/* .clearfix {
+    *zoom: 1
+} */
+
+body {
+    background-color: #f9f9f9;
+}
+
+.shortcut {
+    height: 46px;
+    line-height: 46px;
+    background-color: #333;
+    color: white;
+}
+
+.login li {
+    float: left;
+    font-size: 14px;
+}
+
+.shortmain {
+    float: right;
+}
+
+.shortmain li {
+    float: left;
+    font-size: 14px;
+}
+
+.shortmain li a {
+    color: #ccc;
+}
+
+.shortmain li a:hover {
+    color: white;
+}
+
+.shortmain ul li:nth-child(even) {
+    width: 1px;
+    height: 14px;
+    background-color: white;
+    margin: 16px 15px 0;
+}
+
+header {
+    background-color: #966F38;
+    position: relative;
+    height: 370px;
+    width: 100%;
+}
+
+.background-image {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: cover;
+    background-position: 50% 25%;
+    background-image: url(images/background.jpeg);
+
+}
+
+.background-image-overlaymobile {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: linear-gradient(rgba(150, 111, 56, 0),
+            rgba(150, 111, 56, 1));
+}
+
+.background-image-overlay {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: linear-gradient(0.25turn,
+            rgba(150, 111, 56, 1),
+            rgba(150, 111, 56, 0));
+}
+
+.title {
+    padding-top: 100px;
+    color: white;
+}
+
+.title h1 {
+    font-size: 60px;
+}
+
+.title li {
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-left: 2px solid white;
+}
+
+.title li a {
+    color: white;
+}
+
+.title li a:hover {
+    color: #966F38;
+}
+
+.title li .g1,
+.title li .g2,
+.title li .g3 {
+    padding: 2px 3px;
+    background-color: #cccc00;
+}
+
+.title li .g2 {
+    background-color: #fcab83
+}
+
+.title li .g3 {
+    background-color: #99cc99
+}
+
+.intro {
+    margin-top: 20px;
+    width: 800px;
+    height: 500px;
+    float: left;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.intro h2,
+.latestevents h2,
+.popular h2,
+.album h2,
+.indexphoto h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 14px;
+}
+
+.intro p a:hover {
+    color: #966F38;
+}
+
+.latestevents {
+    float: right;
+    width: 380px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 20px 30px;
+}
+
+.latestevents li {
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid black; */
+    padding: 10px 20px 0;
+}
+
+.latestevents li img {
+    height: 80%;
+    width: 280px;
+
+}
+
+.latestevents li a {
+    font-size: 14px;
+}
+
+.latest1_text {
+    width: 100%;
+    height: 50px;
+
+}
+
+.latest1_text:hover {
+    color: #966F38
+}
+
+.popular {
+    width: 590px;
+    height: 560px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    float: left;
+}
+
+.popular table tr {
+    height: 20px;
+    width: 100%;
+}
+
+.popular table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.popular tr td {
+    padding: 0 20px;
+}
+
+.popular tr img {
+    width: 50px;
+}
+
+.popular .number {
+    font-size: 14px;
+}
+
+.popular .name {
+    font-size: 14px;
+}
+
+
+.album {
+    width: 590px;
+    height: 560px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    float: right;
+}
+
+.album li {
+    float: left;
+    width: 131px;
+    padding: 0 6px;
+    margin-bottom: 10px;
+}
+
+.album li img {
+    width: 120px;
+    height: auto;
+}
+
+.indexphoto {
+    width: 1200px;
+    height: 670px;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.indexphoto li {
+    float: left;
+    width: 280px;
+    height: 280px;
+    background-color: #966F38;
+    overflow: hidden;
+}
+
+.indexphoto li img {
+    width: 280px;
+}
+
+footer {
+    height: 70px;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.info a {
+    color: white;
+    text-decoration: underline;
+}
+
+.info a:hover {
+    color: #966F38;
+}
